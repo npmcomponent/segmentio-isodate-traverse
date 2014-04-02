@@ -1,10 +1,10 @@
 
-var is = require('is');
-var isodate = require('isodate');
+var is = require('ianstormtaylor-is');
+var isodate = require('segmentio-isodate');
 var each;
 
 try {
-  each = require('each');
+  each = require('component-each');
 } catch (err) {
   each = require('each-component');
 }
